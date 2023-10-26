@@ -31,25 +31,28 @@ ul {
 /***********************************************************/
 
 #one {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
 
-#header-left {
+#section-one-left {
     outline: 1px solid red;
     width: 600px;
     padding: 50px;
     overflow-wrap: break-word;
 }
 
-#header-right {
+#section-one-right {
     outline: 1px solid red;
     width: 600px;
-    padding: 50px;
 }
 
-#header-image {
-    width: 500px;
+#section-one-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
 }
 
 /***********************************************************/
@@ -66,7 +69,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .pokemon-img {
@@ -77,6 +80,26 @@ ul {
 /***********************************************************/
 /********************* Section Three ***********************/
 /***********************************************************/
+#three {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#quote {
+    margin: 0 75px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+}
+#quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    font-size: 34px;
+}
 
 /***********************************************************/
 /********************* Section Four ************************/
