@@ -18,11 +18,33 @@ ul {
     list-style: none;
 }
 
+header {
+    background-color: rgb(255, 127, 127);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 20px;
+}
+
+#header-right-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
 /***********************************************************/
 /********************* Main Sections ***********************/
 /***********************************************************/
 
-#one, #two, #three, #four, footer {
+#one, #two, #three, #four, header, footer {
     width: 1200px;
     margin: 0 auto;
 }
@@ -32,7 +54,6 @@ ul {
 /***********************************************************/
 
 #one {
-    margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
