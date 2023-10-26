@@ -36,6 +36,12 @@ img {
     width: 20px;
 }
 
+#header-left, #header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #header-right-list {
     display: flex;
     flex-direction: row;
