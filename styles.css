@@ -6,10 +6,12 @@
 
 h1 {
     font-size: 48px;
+    color: red;
 }
 
 p {
     font-size: 24px;
+    color: rgba(0, 0, 0, 0.908);
 }
 
 ul {
@@ -21,7 +23,6 @@ ul {
 /***********************************************************/
 
 #one, #two, #three, #four, footer {
-    outline: 1px solid red;
     width: 1200px;
     margin: 0 auto;
 }
@@ -37,14 +38,13 @@ ul {
 }
 
 #section-one-left {
-    outline: 1px solid red;
+    background-color: aquamarine;
     width: 600px;
     padding: 50px;
     overflow-wrap: break-word;
 }
 
 #section-one-right {
-    outline: 1px solid red;
     width: 600px;
 }
 
@@ -58,6 +58,10 @@ ul {
 /***********************************************************/
 /********************* Section Two *************************/
 /***********************************************************/
+
+#two {
+    background-color: aquamarine;
+}
 #section-two-header {
     margin-left: 50px;
 }
@@ -73,9 +77,16 @@ ul {
 }
 
 .pokemon-img {
-    outline: 1px solid red;
     width: 150px;
     height: 150px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#pokemon-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /***********************************************************/
 /********************* Section Three ***********************/
@@ -84,6 +95,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    background-color: antiquewhite;
 }
 
 #quote {
@@ -109,17 +121,18 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(222, 186, 139);
 }
 
 #battle-container {
     border-radius: 5px;
-    outline: 1px solid red;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 50px;
     display: flex;
     flex-direction: row;
     gap: 50px;
+    background-color: aquamarine;
 }
 
 #section-four-left {
@@ -147,4 +160,9 @@ button:hover {
     background-color: red;  
     color: white;
     transition: 0.8s;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
 }
