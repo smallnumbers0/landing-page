@@ -104,3 +104,47 @@ h2 {
 /***********************************************************/
 /********************* Section Four ************************/
 /***********************************************************/
+
+#four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#battle-container {
+    border-radius: 5px;
+    outline: 1px solid red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#section-four-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#section-four-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: red;  
+    color: white;
+    transition: 0.8s;
+}
