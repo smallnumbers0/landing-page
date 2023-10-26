@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+/***********************************************************/
+/********************* Main Sections ***********************/
+/***********************************************************/
+
+#one, #two, #three, #four, footer {
+    outline: 1px solid red;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***********************************************************/
+/********************* Section One *************************/
+/***********************************************************/
+
+#one {
+    display: flex;
+    flex-direction: row;
+}
+
+#header-left {
+    outline: 1px solid red;
+    width: 600px;
+    padding: 50px;
+    overflow-wrap: break-word;
+}
+
+#header-right {
+    outline: 1px solid red;
+    width: 600px;
+    padding: 50px;
+}
+
+#header-image {
+    width: 500px;
+}
+
+/***********************************************************/
+/********************* Section Two *************************/
+/***********************************************************/
+#section-two-header {
+    margin-left: 50px;
+}
+
+#pokemon-team-container {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pokemon-img {
+    outline: 1px solid red;
+    width: 150px;
+    height: 150px;
+}
+/***********************************************************/
+/********************* Section Three ***********************/
+/***********************************************************/
+
+/***********************************************************/
+/********************* Section Four ************************/
+/***********************************************************/
