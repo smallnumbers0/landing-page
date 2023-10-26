@@ -184,6 +184,7 @@ button:hover {
 }
 
 footer {
+    font-size: 15px;
     text-align: center;
     padding: 10px;
     background-color: rgb(255, 127, 127);
